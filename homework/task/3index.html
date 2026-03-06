@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>homework</title>
+    </head>
+    <body>
+           <h2>Pac-Man</h2>
+         <h3>General information</h3>
+           <p>Pac-Man is an arcade video game relased in 1980,devaloped by the Japonese company Namco. The players task is to control Pacman to eat all the points in the maze ,avoiding meeting the ghosts that are chasing the hero </p> 
+           <p>In Japan ,the created game was called Puck-Man(Japonese npakkuman ),but when localized the.Us,Midway changed the name to Pac-Man,beleving that with the orginal name,childrencould paint over the middle of the ,P,tunning it into F,and making the vord obscene </p>
+           <h3>Game Characters</h3>
+           <p>The main character Pacman was made frindly so people could associate themselves with him.The role of enemies in Pac-Man is played by for four colorful ghosts:</p>
+           <ul>
+            <li><b>Blinky</b> : A red ghost,starling Pacman without much fuss.</li>
+            <li><b>Plinky</b> : A pink ghost that a position 32 pixels from the front of the protagonist.</li>
+            <li><b>Inca</b>: a blue ghost trying to get o point found using a special algorithm,taking into accont the position of the following objesct</li>
+            <ol>
+                <li>player</li>
+                <li>another ghost-Blinky</li>
+            </ol>
+            <li><b>Clyde</b> : an orange ghost,which,dependig on the distance forom the main character,chases Pacman,then goes to the lower left comer of the maze.</li>
+           </ul>
+           <h3> Level 256</h3>
+           <p>The firsr person to beat Pac-Man was American Billy Mitchell.When the creator of the game,Tohro Inwatani,met with him,Billy asked if some of the features he discovered had been deliberately allowed.</p>
+           <p>Iwatani consulted with colleagues and replied as following</p>
+           <p><i>Mr.Mitchell.We do not know.The game was not supposed to last long.</i></p>
+           <p>As conceived by the devalopers,Pac-Man was not suppsed to have an end , since the increasenig complexity of the game would not allow it go far.Howewer,same players were able complete 255 levels of the game , wich took several hours,and at 256 level they discovered  the manifesttation of a programming error in the from of a &laquo; screen of death &raquo;</p>
+           <p>level 256</p>
+           <p>The reson for this error is the procedure that calculates the bonuses  under the maze. When  level 256 is reached,it loads the value 255 into  the CPU register and incerements it by wan.255 is the maxiumum value that can fit in a Zilog Z80 processor register,so when incremented by 1, an integer overflow occurs and zero is written to the regist  </p>
+           <p>If the register value is less than 7,then the subroutine consider that this is one  of the first levels on which to draw bonus symbols. After drawing the register (currendy equal to zero)is decremented by one and a &laquo;buttom overflow&raquo;ocurs:a negativ number cannot be written in the register ,and 255 is placed in it.The drawing cycle is perfomed with decresing the register value until it becomes equal to 0(i.e time ).The images of bonuses in the game are stored in a special table.Since irs size less than 256,the subroution leaves the table and stars using data that is not interned for this.
+            <h3>Reprints</h3>
+            <p>in 2010,on the 30th anniversary of the game,Google introduced a thematic
+          <u> <a href=""> &laquo;doodle &raquo;; . The maze desing was a Google lego,but graphics ,sounds,and ghost behavior pattems copied the orginal game . When you press the  Insert coin  button again.Mrs.Pacman appears on the screen and the game can be played together on the same keyboard </u> 
+         </p> </a>
+        <p>  <a href=""> Pac-Man has been featured in numerous compilation of game from Namco ( for example,the Namco Museum serie ) and compilations of the Pac-Man series, Some of them are presendent below . </a> </p>
+        <table>
+            <tr> 
+                <th>&nbsp;&nbsp;  <a href="">Collection title</a></th>
+                <th>&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  <a href=""> First Release Date</a></th>
+                <th colspan="6"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  <a href=""> 
+                Inculued Games</a></th>
+            </tr> </table>
+            <br>
+            <br>
+            <table>
+    
+
+            <tr>
+                <td rowspan="6"> <a href=""> Namco Museum Vol.1</a></td>
+                <td rowspan="6"><a href="">Plastition:November 22.1995 &nbsp; &nbsp; &nbsp; </a></td> 
+                <td> &nbsp;&nbsp;&nbsp; <a href=""><ul>
+                    <li>Bosconian[en]</li>
+                </ul> </a></td>
+                <tr>
+                    <td> <a href=""><ul>
+                        <li>Galaga</li>
+                    </ul></a></td>
+                    </tr>
+                    <tr>
+                        <td> <a href=""><ul>
+                            <li>New Really X[en]</li>
+                    </tr>
+                    <tr>
+                        <td> <a href=""><ul>
+                            <li>Pac-Man</li>
+                        </ul></a></td>
+                    </tr>
+                    <tr>
+                        <td> <a href=""> <ul> <li>Pole Position</li>
+                        </ul></a></td>
+                    
+                    </tr>
+                    <tr>
+                        <td> <a href=""> <ul> <li>Really X Toy Pop</li>
+                        </ul></a></td>
+                    </tr>
+                     </table>
+                     <br>
+                     <br>
+                     <br>
+                     <table>
+                        <tr>
+                            <td rowspan="4"> <a href=""> Pac-Man Collection</a></td>
+                            <td rowspan="4">&nbsp;&nbsp;&nbsp; &nbsp; <a href=""> GameBoy Advance Jul 12.2001</a></td>
+                            <td> <a href=""><ul>
+                                <li>Pac-Attack</li>
+                            </ul></a></td>
+                
+                        </tr>
+                        <tr>
+                            <td> <a href=""> <ul> <li>Pac-Man</li></ul>
+                            </a></td>
+                        </tr>
+                        <tr>
+                            <td> <a href=""> <ul> <li>Pac-Man Arrangement</li>
+                            </ul>
+                        </tr>
+                        <tr>
+                            <td> <a href=""> <ul> <li>Pac-Mania</li>
+                        </tr>
+                        </table>
+                        <br>
+                        <br>
+                        <table>
+                        <tr>
+                            <td rowspan="9"> <a href="">Namco Museum </a></td>
+                            <td rowspan="9">&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=""> Nintende Switch July 28.2017</a></td>
+                            <td> <a href=""><ul>
+                                <li>Dig Dug</li>
+                            </ul></a></td>
+                        </tr>
+                        <tr>
+                            <td> <a href=""> <ul> <li>Galaga 88</li>
+                                </ul></a></td>
+                        </tr>
+                        <tr>
+                            <td> <a href=""> <ul> <li>Pac-Man</li>
+                                </ul></a></td>
+                        </tr>
+                        <tr>
+                            <td> <a href=""> <ul> <li>Pac-Man Vs</li>
+                            </ul></a></td>
+                        </tr>
+                        <tr>
+                            <td> <a href=""> <ul> <li>Rolling Thunder 1,2. </li>
+                            </ul></a></td>
+                        </tr>
+                        <tr>
+                            <td> <a href=""> <ul> <li>Sky Kid</li>
+                            </ul></a></td>
+                        </tr>
+                        <tr>
+                            <td> <a href=""> <ul> <li>Splatterhouse</li>
+                            </ul></a></td>
+                        </tr>
+                        <tr>
+                            <td> <a href=""> <ul> <li>Tank Force</li>
+                            </ul></a></td>
+                        </tr>
+                        <tr>
+                            <td> <a href=""> <ul> <li>The Tower of Druage</li>
+                            </ul></a></td>
+                        </tr>
+                        </table>
+                        <br>
+                        <br>
+                        <h1>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;Create a new account</h1>
+                       <p>  &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; its quick and easy </p>
+                        <label> <fieldset>
+                            <input type="text" placeholder="First name">
+                            <input type="text" placeholder="Last name">
+                        </label><br>
+                        <p>Birthday</p>
+                        <select name="" id="">
+                            <option value="">Jan</option>
+                            <option value="">Feb</option>
+                            <option value="">Mar</option>
+                            <option value="">Apr</option>
+                            <option value="">May</option>
+                            <option value="">Jun</option>
+                            <option value="">Jul</option>
+                            <option value="">Aug</option>
+                            <option value="">Sep</option>
+                            <option value="">Oct</option>
+                            <option value="">Nov</option>
+                            <option value="">Dec</option>
+                        </select>
+                        <select name="" id=""> 
+                            <option value="">1</option>
+                            <option value="">2</option>
+                            <option value="">3</option>
+                            <option value="">4</option>
+                            <option value="">5</option>
+                            <option value="">6</option>
+                            <option value="">7</option>
+                            <option value="">8</option>
+                            <option value="">9</option>
+                            <option value="">10</option>
+                            <option value="">11</option>
+                            <option value="">12</option>
+                            <option value="">13</option>
+                            <option value="">14</option>
+                            <option value="">15</option>
+                            <option value="">16</option>
+                            <option value="">17</option>
+                            <option value="">18</option>
+                            <option value="">19</option>
+                            <option value="">20</option>
+                            <option value="">21</option>
+                            <option value="">22</option>
+                            <option value="">23</option>
+                            <option value="">24</option>
+                            <option value="">25</option>
+                            <option value="">26</option>
+                            <option value="">27</option>
+                            <option value="">28</option>
+                            <option value="">29</option>
+                            <option value="">30</option>
+                            <option value="">31</option>
+                        </select>
+                        <select name="" id="">
+                            <option value="">2026</option>
+                            <option value="">2025</option>
+                            <option value="">2024</option>
+                            <option value="">2023</option>
+                            <option value="">2022</option>
+                            <option value="">2021</option>
+                            <option value="">2020</option>
+                            <option value="">2019</option>
+                            <option value="">2018</option>
+                            <option value="">2017</option>
+                            <option value="">2016</option>
+                            <option value="">2015</option>
+                            <option value="">2014</option>
+                            <option value="">2013</option>
+                            <option value="">2012</option>
+                            <option value="">2011</option>
+                            <option value="">2010</option>
+                            <option value="">2009</option>
+                            <option value="">2008 </option>
+                            <option value="">2007</option>
+                            <option value="">2006</option>
+                            <option value="">2005</option>
+                            <option value="">2004</option>
+                            <option value="">2003</option>
+                            <option value="">2002</option>
+                            <option value="">2001</option>
+                            <option value="">2000</option>
+                            <option value="">1999</option>
+                            <option value="">1998</option>
+                            <option value="">1997</option>
+                            <option value="">1996</option>
+                            <option value="">1995</option>
+                            <option value="">1994</option>
+                            <option value="">1993</option>
+                            <option value="">1992</option>
+                            <option value="">1991</option>
+                            <option value="">1990</option>
+                            <option value="">1989</option>
+                            <option value="">1988</option>
+                            <option value="">1987</option>
+                            <option value="">1986</option>
+                            <option value="">1985</option>
+                            <option value="">1984</option>
+                            <option value="">1983</option>
+                            <option value="">1982</option>
+                            <option value="">1981</option>
+                            <option value="">1980</option>
+                            <option value="">1979</option>
+                            <option value="">1978</option>
+                            <option value="">1977</option>
+                            <option value="">1976</option>
+                            <option value="">1975</option>
+                        </select><br>
+                        <p>Gender</p>
+                        <label for="">Female</label>
+                        <input type="radio" name="Gender">
+                        <label for="">Male</label>
+                        <input type="radio" name="Gender">
+                        <label for="">Custom</label>
+                        <input type="radio" name="Gender"><br>
+                        <label for="">
+                            <input type="text" placeholder="Mobile Number or Email"><br>
+                            <input type="text" placeholder="new pasword">
+                        </label>
+                        <p>People who use our service may have uploaded you <br> contact information to Facebook  <a href="">Learn more</a></p>
+                        <p>By clicking Sign Up, you agree to our<a href=""> Terms, Data <br> Policy</a> and <a href="">Cookies Policy</a>. You may receive SMS <br> Notifications from us and can opt out any time.</p>
+                        <br>
+                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;<button>Sign Up</button>  </fieldset>
+
+                    
+                     
+
+        
+
+
+    </body>
+    </html>

@@ -1,0 +1,18 @@
+table{
+    font-family: "Roboto", sans-serif;
+}
+.contry{
+     background-color: lightgrey;
+}
+.title{
+  background-color: lightgrey;
+}
+.frice{
+     background-color: lightgrey;
+}
+.change{
+     background-color: lightgrey;
+}
+td{
+    border-bottom: 1px solid #b0a160;
+}

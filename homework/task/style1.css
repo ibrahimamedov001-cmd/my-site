@@ -1,0 +1,12 @@
+ul:first-child{
+    color: teal
+}
+ul :nth-child(2){
+    color: red;
+}
+ul :last-child{
+    color: green;
+}
+ul :hover{
+    color: purple;
+}

@@ -1,0 +1,51 @@
+.card{ 
+    width: 350px;
+    box-sizing: border-box;
+    border: 1px solid;
+    background-color: #833ae0;
+    border-radius: 13px;
+}
+.sekil{
+    width: 50px;
+    height: 50px;
+    padding-top: 30px;
+    padding-left: 15px;
+}
+.number{
+    font-size: 25px;
+    margin:   1px auto;
+    padding-left: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    color: aliceblue;
+}
+h2{
+    padding-left: 15px;
+    margin-top: 1px;
+    font-size: 17px ;
+    font-family: monospace;
+    color: aliceblue;
+}
+.thru{
+    font-size: 10px;
+    padding-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 1px;
+    color: aliceblue;
+}
+.ago{
+    padding-left: 15px;
+    margin: 1px auto;
+    font-family: tahoma;
+    color: aliceblue;
+}
+.van{
+    margin-bottom: 60px;
+    background-color: aqua;
+}
+.tru{
+    margin-bottom: 60px;
+    background-color: aqua;
+}
+.thri{
+    background-color: aqua;
+}
